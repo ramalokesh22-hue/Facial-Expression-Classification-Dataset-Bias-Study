@@ -1,0 +1,146 @@
+{
+    "overall_accuracy": 0.8689,
+    "macro_precision": 0.8704,
+    "weighted_precision": 0.9256,
+    "macro_recall": 0.8456,
+    "weighted_recall": 0.8689,
+    "macro_f1": 0.8215,
+    "weighted_f1": 0.8708,
+    "test_samples_count": 351,
+    "per_class_metrics": [
+        {
+            "Emotion": "Angry",
+            "Test_Count": 49,
+            "Precision": 0.5632,
+            "Recall": 1.0,
+            "F1-Score": 0.7206
+        },
+        {
+            "Emotion": "Disgust",
+            "Test_Count": 10,
+            "Precision": 0.5294,
+            "Recall": 0.9,
+            "F1-Score": 0.6667
+        },
+        {
+            "Emotion": "Fear",
+            "Test_Count": 49,
+            "Precision": 1.0,
+            "Recall": 0.9184,
+            "F1-Score": 0.9574
+        },
+        {
+            "Emotion": "Happy",
+            "Test_Count": 87,
+            "Precision": 1.0,
+            "Recall": 0.977,
+            "F1-Score": 0.9884
+        },
+        {
+            "Emotion": "Neutral",
+            "Test_Count": 59,
+            "Precision": 1.0,
+            "Recall": 0.7966,
+            "F1-Score": 0.8868
+        },
+        {
+            "Emotion": "Sad",
+            "Test_Count": 59,
+            "Precision": 1.0,
+            "Recall": 0.9322,
+            "F1-Score": 0.9649
+        },
+        {
+            "Emotion": "Surprise",
+            "Test_Count": 38,
+            "Precision": 1.0,
+            "Recall": 0.3947,
+            "F1-Score": 0.566
+        }
+    ],
+    "condition_bias_metrics": {
+        "normal": {
+            "count": 283,
+            "accuracy": 0.9187
+        },
+        "low_light": {
+            "count": 18,
+            "accuracy": 0.6111
+        },
+        "high_contrast": {
+            "count": 19,
+            "accuracy": 1.0
+        },
+        "blur": {
+            "count": 31,
+            "accuracy": 0.4839
+        }
+    },
+    "confusion_matrix": [
+        [
+            49,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            1,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            4,
+            0,
+            45,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            2,
+            0,
+            0,
+            85,
+            0,
+            0,
+            0
+        ],
+        [
+            8,
+            4,
+            0,
+            0,
+            47,
+            0,
+            0
+        ],
+        [
+            0,
+            4,
+            0,
+            0,
+            0,
+            55,
+            0
+        ],
+        [
+            23,
+            0,
+            0,
+            0,
+            0,
+            0,
+            15
+        ]
+    ],
+    "epochs_trained": 8,
+    "used_class_weights": true
+}

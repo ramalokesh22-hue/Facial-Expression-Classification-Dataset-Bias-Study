@@ -1,0 +1,68 @@
+{
+    "total_images": 1400,
+    "num_classes": 7,
+    "imbalance_ratio": 12.5,
+    "shannon_entropy": 2.6265579200796965,
+    "normalized_entropy": 0.935598808487886,
+    "ideal_class_share_pct": 14.285714285714286,
+    "disparities": {
+        "Angry": {
+            "count": 196,
+            "share_pct": 14.000000000000002,
+            "disparity_ratio": 0.9800000000000001,
+            "status": "Balanced"
+        },
+        "Disgust": {
+            "count": 28,
+            "share_pct": 2.0,
+            "disparity_ratio": 0.13999999999999999,
+            "status": "Underrepresented"
+        },
+        "Fear": {
+            "count": 196,
+            "share_pct": 14.000000000000002,
+            "disparity_ratio": 0.9800000000000001,
+            "status": "Balanced"
+        },
+        "Happy": {
+            "count": 350,
+            "share_pct": 25.0,
+            "disparity_ratio": 1.75,
+            "status": "Overrepresented"
+        },
+        "Neutral": {
+            "count": 238,
+            "share_pct": 17.0,
+            "disparity_ratio": 1.19,
+            "status": "Balanced"
+        },
+        "Sad": {
+            "count": 238,
+            "share_pct": 17.0,
+            "disparity_ratio": 1.19,
+            "status": "Balanced"
+        },
+        "Surprise": {
+            "count": 154,
+            "share_pct": 11.0,
+            "disparity_ratio": 0.7699999999999999,
+            "status": "Balanced"
+        }
+    },
+    "test_counts": {
+        "Angry": 49,
+        "Disgust": 10,
+        "Fear": 49,
+        "Happy": 87,
+        "Neutral": 59,
+        "Sad": 59,
+        "Surprise": 38
+    },
+    "condition_counts": {
+        "normal": 1449,
+        "low_light": 82,
+        "high_contrast": 92,
+        "noisy": 0,
+        "blur": 128
+    }
+}
