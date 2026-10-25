@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎭 Facial Expression Classification: Dataset Bias Study
 
 A comprehensive, beginner-friendly AI college project built with **Python**, **TensorFlow/Keras**, **OpenCV**, **Streamlit**, **Pandas**, and **Matplotlib/Seaborn**.
@@ -163,3 +164,6 @@ Errors on underrepresented classes produce higher loss gradients, compelling the
   The application automatically activates a center-crop fallback so inference never crashes.
 - **Port 8501 is already in use**:
   Run Streamlit on a different port: `python -m streamlit run app.py --server.port 8502`.
+=======
+# Facial-Expression-Classification-Dataset-Bias-Study
+>>>>>>> 1b15a8ed76e8d13967012dd49b643a10c01bae0c

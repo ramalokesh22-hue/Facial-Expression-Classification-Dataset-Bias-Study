@@ -1,22 +1,3 @@
-# Python
+
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-ENV/
-
-# Streamlit
-.streamlit/secrets.toml
-
-# IDE / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Optional large archives if you prefer GitHub releases for the zip
-# Facial_Expression_Bias_Study.zip
+*.pyc
