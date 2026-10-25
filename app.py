@@ -6,7 +6,7 @@ Modern Streamlit Dashboard for real-time emotion recognition, dataset bias audit
 model evaluation, and viva defense exploration.
 """
 
-import os
+import osn
 import sys
 import json
 import time
